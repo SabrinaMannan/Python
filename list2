@@ -1,0 +1,8 @@
+n =input("Enter a list of numbers:") #taking random numbers from user
+list= n.split() #split fn will convert the numbers of into elements(string) of list
+sum=0
+#num is each variables of list
+for num in list:
+    sum = sum + int(num) #num was string it was typecasted into integer
+
+print(sum)
