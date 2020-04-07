@@ -1,0 +1,19 @@
+#Checking number of digit,word,letter in a given text
+numOfLetters = 0
+numOfWords = 0
+numOfDigits = 0
+
+text = input("Enter your text:")
+
+for x in text:
+    x = x.lower() #convert all into small letter
+    if x>= 'a' and x<= 'z':
+        numOfLetters= numOfLetters+1
+    elif x >= '0' and x <= '9':
+        numOfDigits = numOfDigits+1
+    elif x==' ':
+        numOfWords = numOfWords+1
+
+print("Number of letters in the text is:",numOfLetters)
+print("Number of digits in the text is:",numOfDigits)
+print("Number of words in the text is:",numOfWords+1)
