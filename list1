@@ -1,0 +1,59 @@
+#subject is the name of the list,any name can be given
+subject = ["C","C++","java","python","AI","Aws","algorithm","Aws","Aws"]
+"""#printing the whole subject list
+print(subject)
+
+#printing using index no.
+print(subject[0])
+print(subject[2:]) #printing everything from index 2
+print(subject[-1])
+
+#searching words in list "in" & "not in" are keywords 
+print("java" in subject)
+print("Aws" not in subject)
+
+#printing the size of the list
+print("size of the list is",len(subject))
+
+#adding more elements in list
+print(subject + ["data structure" , 109])
+subject.append(24)
+print(subject)
+#print(subject[-1]) #last index is showing algorithm
+
+#printing several times
+#n=int(input("Enter how many times you want to print:"))
+#print(subject *n)
+
+#inserting a element in a index
+subject.insert(1,"cs")
+print(subject)
+
+#removing a element
+subject.remove(24)
+print(subject)
+
+#sorting the list
+subject.sort()
+print(subject)
+
+subject.reverse()
+print(subject)
+
+subject.pop()
+#print(subject)
+subject.pop()
+print(subject)
+subject.pop()
+#print(subject)
+
+subject2 =subject.copy()
+print(subject2)
+subject.clear()
+print(subject)
+"""
+#counts the number of presence
+pos = subject.count("Aws")
+print(pos)
+
+
